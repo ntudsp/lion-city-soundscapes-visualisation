@@ -41,7 +41,8 @@
 
 ### Built With
 
-- Python
+- Python (version 3.11.0)
+- Pip (22.3.1)
 - Django
 - LeafletJS
 - OneMap
@@ -56,9 +57,24 @@
 
 ### Prerequisites
 
-Before setting up the project, make sure the following has been installed:
+To ensure that the project runs smoothly, please make sure you have the following dependencies installed on your system:
 
-- Python
+- **Python**: This project is built with Python version 3.11.0. You can download the latest version of Python from the official website python.org. To check if you have the correct version of Python installed, open a terminal or command prompt and run the following command:
+  ```sh
+  python --version
+  ```
+This will display the installed version of Python. To ensure the project runs smoothly, please ensure your version of Python is 3.11.0 or newer.
+
+- **Pip**: Pip is the package installer for Python. To check if you have pip installed, you may run the following command line in your terminal:
+  ```sh
+  pip --version
+  ```
+This will display the installed version of Pip. To ensure the project runs smoothly, please ensure your version of Pip is 22.3.1 or newer.
+
+- **Python Virtual Environment**: To install and set up the virtual environment, run the following command line in the termianal or command prompt:
+  ```sh
+  python -m pip install venv
+  ```
 
 - Django
 
@@ -73,25 +89,34 @@ Before setting up the project, make sure the following has been installed:
 
 ### Installation
 
-- Clone the repo:
+# Step 1: Setting up and activating the Virtual Environment 
+Once `venv` has been installed (refer to project prerequisites) 
 
+# Step 2: Installing the Project
+Clone the repository by downloading it from https://github.com/ntudsp/Lion-City-Soundscapes-Visualisation, or enter the following command on a terminal (with git installed):
   ```sh
-  git clone https://github.com/nemopotatoes/Lion-City-Soundscapes-Visualisation.git
+  git clone https://github.com/ntudsp/Lion-City-Soundscapes-Visualisation.git
   ```
 
-- Install project dependencies in your project directory:
+You may navigate to the project folder in the terminal, where `path/to/` is the directory of the folder:
+  ```sh
+  cd path/to/Lion-City-Soundscapes-Visualisation
+  ```
 
+Install project dependencies in the project's directory with the following command (make sure you have pip installed for this step)
   ```sh
   pip install -r requirements.txt
   ```
-
-- Run the Server:
-
+# Step 3: Running the Project on a Local Server
+You may run the project on a local server by entering the following line in the project directory `/path/to/Lion-City-Soundscapes-Visualisation`. Please make sure you have python installed for this step.
   ```sh
   python manage.py runserver
   ```
 
-- View the project on your local server at: http://127.0.0.1:8000/ !
+The project can be viewed on your local server at http://127.0.0.1:8000/ 
+
+# Step 4: Stopping the Server
+To stop the server, press `Ctrl`+`C` in your keyboard in the same terminal.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
