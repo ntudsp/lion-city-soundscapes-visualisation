@@ -1,7 +1,7 @@
 // Set up map
 var map = L.map('mapdiv', {
     zoomControl: false                  // remove top left zoom controls
-}).setView([1.350270, 103.829959],13);  // lat and long coordinates + initial zoom
+}).setView([1.350270, 103.829959],12);  // lat and long coordinates + initial zoom
 
 // zoom buttons to bottom right
 L.control.zoom({ position: 'bottomright' }).addTo(map);
@@ -122,7 +122,7 @@ var basemap = L.tileLayer('https://maps-{s}.onemap.sg/v3/Grey/{z}/{x}/{y}.png', 
     detectRetina: true,
     maxZoom: 20,
     minZoom: 11,
-    attribution: '<img src="https://www.onemap.gov.sg/docs/maps/images/oneMap64-01.png" style="height:20px;width:20px;"/> OneMap | Map data &copy; contributors, <a href="http://SLA.gov.sg">Singapore Land Authority</a>',
+    attribution: '<a href="https://www.onemap.gov.sg/home/">OneMap</a> | Map data &copy; contributors, <a href="http://SLA.gov.sg">Singapore Land Authority</a>',
     layers: [
         fulloflifeExciting_layer,
         chaoticRestless_layer,
