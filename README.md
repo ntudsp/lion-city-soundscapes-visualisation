@@ -6,7 +6,7 @@
 
 This repository stores the code to build a Django web application for the interactive <a href="https://leafletjs.com">Leaflet</a> map described in the following publication:
 
-> Kenneth Ooi, Jessie Goh, Hao-Weng Lin, Zhen-Ting Ong, Trevor Wong, Karn Watcharasupat, Bhan Lam, Woon-Seng Gan, "Lion City Soundscapes (LCS): Recording and Validation of Characteristic Soundscapes of Singapore", in _49th IEEE International Conference on Acoustics, Speech, and Signal Processing, ICASSP 2024_, Seoul, South Korea [to be submitted]
+> Kenneth Ooi, Hao-Weng Lin, Jessie Goh, Zhen-Ting Ong, Trevor Wong, Karn Watcharasupat, Bhan Lam, Woon-Seng Gan, Lion City Soundscapes: Modified Partitioning Around Medoids for a Representative Dataset of Singaporean Soundscapes, _JASA Express Letters_, 2024 [under review].
 
 A (temporarily working) deployed example of the interactive map can be accessed at http://18.136.105.85/map/.
 
